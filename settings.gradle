@@ -1,0 +1,2 @@
+rootProject.name='SixDemo'
+include ':app'

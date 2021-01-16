@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/root_t"
+    >
+
+    <!--底边控制banner-->
+    <RelativeLayout android:id="@+id/la1bottom"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/transDark"
+        android:visibility="invisible"
+        >
+
+        <!--TextView
+            android:id="@+id/cam_resolution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="分辨率"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/cam_angle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true"
+            android:text="旋转"
+            android:textColor="@color/white"
+            android:layout_alignRight="@+id/cam_resolution"
+            /-->
+
+        <!--Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="1920x1080"
+            android:textColor="@color/white"
+            android:background="@drawable/btnbg"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/res_tip" /-->
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
